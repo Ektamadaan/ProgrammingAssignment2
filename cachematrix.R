@@ -40,6 +40,7 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
+
 > source("ProgrammingAssignment2/cachematrix.R")
 > my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
 > my_matrix$get()
@@ -81,3 +82,4 @@ getting cached data
            [,1]       [,2]
 [1,]  0.6666667 -0.1666667
 [2,] -0.3333333  0.3333333
+
